@@ -42,8 +42,8 @@
 //               |     |      |      |      |        |  |       |      |       |       |      |
             bindings = <
 
-&trans    &trans    &trans      &kp TILDE &kp GRAVE  &trans                    &trans   &trans &kp HASH &kp CARET &trans    &trans 
-&kp F1    &kp PRCNT &kp AMPS    &kp QMARK &kp PLUS   &kp AT                    &kp F7   &kp F8 &kp F9   &kp F10  &kp F11  &kp F12
+&trans    &trans    &trans      &kp TILDE &kp GRAVE  &trans                    &trans   &kp HASH &kp CARET &trans    &trans &trans
+&trans    &kp PRCNT &kp AMPS    &kp QMARK &kp PLUS   &kp AT                    &kp DLLR   &kp UNDER &kp LBKT    &kp RBKT  &kp EXCL  &trans
 &trans    &kp FSLH  &kp LPAR    &kp EQUAL &kp N0     &kp LBRC                  &kp RBRC &kp N1  &kp STAR &kp RPAR  &kp MINUS &kp SQT
 &trans    &kp N6    &kp N7      &kp N8    &kp N9     &kp PIPE  &trans   &trans &kp BSLH &kp N2  &kp N3     &kp N4  &kp N5     &trans
                     &trans    &trans      &trans     &trans    &trans   &kp RET &trans    &trans   &trans          &trans
@@ -63,7 +63,7 @@
             bindings = <
 
 &kp F1     &kp F2     &kp F3       &kp F4       &kp F5       &kp F6                   &kp F7    &kp F8    &kp F9   &kp F10    &kp F11  &kp F12
-&trans     &kp INS      &kp PSCRN  &kp K_CMENU  &trans     &trans                     &kp PG_UP &trans    &kp UP   &trans     &trans   &trans
+&trans     &kp INS      &kp PSCRN  &kp LC(PGUP)  &kp LC(PGDN)     &trans                     &kp PG_UP &trans    &kp UP   &trans     &trans   &trans
 &trans     &kp LALT     &kp GUI    &kp LSHFT    &kp LCTRL    &kp ESC                  &kp PG_DN &kp LEFT  &kp DOWN &kp RIGHT  &kp BSPC &kp DEL
 &trans     &kp K_UNDO   &kp K_CUT    &kp K_COPY   &kp K_PASTE  &trans  &trans   &trans  &trans    &trans    &trans   &trans    &trans  &trans
                         &trans       &trans       &trans       &trans  &trans   &kp RET  &trans    &trans    &trans   &trans
